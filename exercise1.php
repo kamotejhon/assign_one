@@ -14,7 +14,7 @@
         <?php
            if (isset($_GET['try']))
            {
-               echo "Your Name is: ".$_GET["name"];
+               echo "Your Name is is: ".$_GET["name"];
            } 
 
         ?>
