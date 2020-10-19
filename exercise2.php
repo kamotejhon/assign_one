@@ -60,6 +60,10 @@
             }
         ?>
 
+        <form action = "index.php" method = "get" > 
+                 <br><br><br>
+                 <input type="submit" value="back">
+            </form>
      
 </body>
 </html>

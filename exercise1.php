@@ -16,7 +16,14 @@
            {
                echo "Your Name is: ".$_GET["name"];
            } 
+
         ?>
+
+        
+            <form action = "index.php" method = "get" > 
+                 <br><br><br>
+                 <input type="submit" value="back">
+                 </form>
         
         
 </html>
