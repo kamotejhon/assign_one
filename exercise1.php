@@ -6,7 +6,7 @@
     <h1>Exercise Number 1 </h1>
 
         <form action = "exercise1.php" method = "get" > 
-            <input type="text" placeholder="Username" name="name" >
+            <input type="text" placeholder="Username" name="username" >
                  <input type="submit" name="try">
         </form>  
 
@@ -14,7 +14,7 @@
         <?php
            if (isset($_GET['try']))
            {
-               echo "Your Name is: ".$_GET["name"];
+               echo "Your Name is: ".$_GET["username"];
            } 
 
         ?>
@@ -22,7 +22,7 @@
         
             <form action = "index.php" method = "get" > 
                  <br><br><br>
-                 <input type="submit" value="back">
+                 <input type="submit" value="backv">
                  </form>
         
         
