@@ -22,7 +22,7 @@
         
             <form action = "index.php" method = "get" > 
                  <br><br><br>
-                 <input type="submit" value="backv">
+                 <input type="submit" value="back">
                  </form>
         
         
